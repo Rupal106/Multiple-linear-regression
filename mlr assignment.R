@@ -3,7 +3,7 @@ mydata
 model=lm(Weight~Length1+Length2+Length3+Width+Height)
 summary(model)
 #to see which predictor variables are significant
-#t-statistic evaluates whether or not there is significant association between the predictor and the outcome variable
+#t1-statistic evaluates whether or not there is significant association between the predictor and the outcome variable
 summary(model)$coefficient
 model=lm(Weight~Length1+Width+Height)
 summary(model)
